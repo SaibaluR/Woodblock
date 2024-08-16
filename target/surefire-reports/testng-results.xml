@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-17T16:42:39 IST" name="Surefire suite" finished-at="2022-05-17T16:44:16 IST" duration-ms="97748">
+    <groups>
+    </groups>
+    <test started-at="2022-05-17T16:42:39 IST" name="Surefire test" finished-at="2022-05-17T16:44:16 IST" duration-ms="97748">
+      <class name="tests.ImageTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.ImageTest@37574691]" started-at="2022-05-17T16:42:50 IST" name="startDriver" finished-at="2022-05-17T16:42:51 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="imageTestInHomePage()[pri:1, instance:tests.ImageTest@37574691]" started-at="2022-05-17T16:42:51 IST" name="imageTestInHomePage" finished-at="2022-05-17T16:42:52 IST" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTestInHomePage -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.ImageTest@37574691]" started-at="2022-05-17T16:42:52 IST" name="quitDriver" finished-at="2022-05-17T16:42:53 IST" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=imageTestInHomePage status=SUCCESS method=ImageTest.imageTestInHomePage()[pri:1, instance:tests.ImageTest@37574691] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.ImageTest@37574691]" started-at="2022-05-17T16:42:53 IST" name="startDriver" finished-at="2022-05-17T16:42:54 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="imageTestInSearchResultPage()[pri:2, instance:tests.ImageTest@37574691]" started-at="2022-05-17T16:42:54 IST" name="imageTestInSearchResultPage" finished-at="2022-05-17T16:42:57 IST" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTestInSearchResultPage -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.ImageTest@37574691]" started-at="2022-05-17T16:42:57 IST" name="quitDriver" finished-at="2022-05-17T16:42:58 IST" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=imageTestInSearchResultPage status=SUCCESS method=ImageTest.imageTestInSearchResultPage()[pri:2, instance:tests.ImageTest@37574691] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.ImageTest -->
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:42:58 IST" name="startDriver" finished-at="2022-05-17T16:42:59 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="validLogincheck()[pri:1, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:42:59 IST" name="validLogincheck" finished-at="2022-05-17T16:43:03 IST" duration-ms="4076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogincheck -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:03 IST" name="quitDriver" finished-at="2022-05-17T16:43:04 IST" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogincheck status=SUCCESS method=LoginTest.validLogincheck()[pri:1, instance:tests.LoginTest@25359ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:04 IST" name="startDriver" finished-at="2022-05-17T16:43:05 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="invalidLogincheck()[pri:2, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:05 IST" name="invalidLogincheck" finished-at="2022-05-17T16:43:09 IST" duration-ms="4737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogincheck -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:09 IST" name="quitDriver" finished-at="2022-05-17T16:43:10 IST" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogincheck status=SUCCESS method=LoginTest.invalidLogincheck()[pri:2, instance:tests.LoginTest@25359ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:10 IST" name="startDriver" finished-at="2022-05-17T16:43:11 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="invalidUsernameLogincheck()[pri:3, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:11 IST" name="invalidUsernameLogincheck" finished-at="2022-05-17T16:43:16 IST" duration-ms="4584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameLogincheck -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:16 IST" name="quitDriver" finished-at="2022-05-17T16:43:16 IST" duration-ms="616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUsernameLogincheck status=SUCCESS method=LoginTest.invalidUsernameLogincheck()[pri:3, instance:tests.LoginTest@25359ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:16 IST" name="startDriver" finished-at="2022-05-17T16:43:17 IST" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="invalidPasswordLogincheck()[pri:4, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:17 IST" name="invalidPasswordLogincheck" finished-at="2022-05-17T16:43:22 IST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLogincheck -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:22 IST" name="quitDriver" finished-at="2022-05-17T16:43:22 IST" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPasswordLogincheck status=SUCCESS method=LoginTest.invalidPasswordLogincheck()[pri:4, instance:tests.LoginTest@25359ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:22 IST" name="startDriver" finished-at="2022-05-17T16:43:23 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="forgetPasswordCheck()[pri:5, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:23 IST" name="forgetPasswordCheck" finished-at="2022-05-17T16:43:36 IST" duration-ms="12433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetPasswordCheck -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@25359ed8]" started-at="2022-05-17T16:43:36 IST" name="quitDriver" finished-at="2022-05-17T16:43:36 IST" duration-ms="618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgetPasswordCheck status=SUCCESS method=LoginTest.forgetPasswordCheck()[pri:5, instance:tests.LoginTest@25359ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.OrderFlowTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.OrderFlowTest@5606c0b]" started-at="2022-05-17T16:43:53 IST" name="startDriver" finished-at="2022-05-17T16:43:54 IST" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="orderFlowThroughSearch()[pri:0, instance:tests.OrderFlowTest@5606c0b]" started-at="2022-05-17T16:43:54 IST" name="orderFlowThroughSearch" finished-at="2022-05-17T16:44:16 IST" duration-ms="22094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderFlowThroughSearch -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.OrderFlowTest@5606c0b]" started-at="2022-05-17T16:44:16 IST" name="quitDriver" finished-at="2022-05-17T16:44:16 IST" duration-ms="637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderFlowThroughSearch status=SUCCESS method=OrderFlowTest.orderFlowThroughSearch()[pri:0, instance:tests.OrderFlowTest@5606c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.OrderFlowTest -->
+      <class name="tests.CreateAccountTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:39 IST" name="startDriver" finished-at="2022-05-17T16:42:40 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="createValidUser()[pri:1, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:40 IST" name="createValidUser" finished-at="2022-05-17T16:42:42 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidUser -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:42 IST" name="quitDriver" finished-at="2022-05-17T16:42:42 IST" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createValidUser status=SUCCESS method=CreateAccountTest.createValidUser()[pri:1, instance:tests.CreateAccountTest@6a79c292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:42 IST" name="startDriver" finished-at="2022-05-17T16:42:44 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="passwordValidation()[pri:2, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:44 IST" name="passwordValidation" finished-at="2022-05-17T16:42:45 IST" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordValidation -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:45 IST" name="quitDriver" finished-at="2022-05-17T16:42:46 IST" duration-ms="616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passwordValidation status=SUCCESS method=CreateAccountTest.passwordValidation()[pri:2, instance:tests.CreateAccountTest@6a79c292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:46 IST" name="startDriver" finished-at="2022-05-17T16:42:47 IST" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="mailValidation()[pri:3, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:47 IST" name="mailValidation" finished-at="2022-05-17T16:42:49 IST" duration-ms="1972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailValidation -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6a79c292]" started-at="2022-05-17T16:42:49 IST" name="quitDriver" finished-at="2022-05-17T16:42:50 IST" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mailValidation status=SUCCESS method=CreateAccountTest.mailValidation()[pri:3, instance:tests.CreateAccountTest@6a79c292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.CreateAccountTest -->
+      <class name="tests.NavigationTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:36 IST" name="startDriver" finished-at="2022-05-17T16:43:37 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="navigateFromHomeToLoginPage()[pri:1, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:37 IST" name="navigateFromHomeToLoginPage" finished-at="2022-05-17T16:43:40 IST" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateFromHomeToLoginPage -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:40 IST" name="quitDriver" finished-at="2022-05-17T16:43:40 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateFromHomeToLoginPage status=SUCCESS method=NavigationTest.navigateFromHomeToLoginPage()[pri:1, instance:tests.NavigationTest@21a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:40 IST" name="startDriver" finished-at="2022-05-17T16:43:41 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="navigateFromHomeToCreateAccountPage()[pri:2, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:41 IST" name="navigateFromHomeToCreateAccountPage" finished-at="2022-05-17T16:43:44 IST" duration-ms="2381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateFromHomeToCreateAccountPage -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:44 IST" name="quitDriver" finished-at="2022-05-17T16:43:44 IST" duration-ms="644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateFromHomeToCreateAccountPage status=SUCCESS method=NavigationTest.navigateFromHomeToCreateAccountPage()[pri:2, instance:tests.NavigationTest@21a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:44 IST" name="startDriver" finished-at="2022-05-17T16:43:46 IST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="navigateFromLoginToCreateAccountPage()[pri:3, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:46 IST" name="navigateFromLoginToCreateAccountPage" finished-at="2022-05-17T16:43:48 IST" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateFromLoginToCreateAccountPage -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:48 IST" name="quitDriver" finished-at="2022-05-17T16:43:49 IST" duration-ms="647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateFromLoginToCreateAccountPage status=SUCCESS method=NavigationTest.navigateFromLoginToCreateAccountPage()[pri:3, instance:tests.NavigationTest@21a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:49 IST" name="startDriver" finished-at="2022-05-17T16:43:50 IST" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="navigateFromHomeToSearchResultPage()[pri:4, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:50 IST" name="navigateFromHomeToSearchResultPage" finished-at="2022-05-17T16:43:52 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateFromHomeToSearchResultPage -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:tests.NavigationTest@21a947fe]" started-at="2022-05-17T16:43:52 IST" name="quitDriver" finished-at="2022-05-17T16:43:53 IST" duration-ms="626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateFromHomeToSearchResultPage status=SUCCESS method=NavigationTest.navigateFromHomeToSearchResultPage()[pri:4, instance:tests.NavigationTest@21a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.NavigationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

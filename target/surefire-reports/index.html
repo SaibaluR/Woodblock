@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="createValidUser">createValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="forgetPasswordCheck">forgetPasswordCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ImageTest" class="method navigator-link" hash-for-method="imageTestInHomePage">imageTestInHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ImageTest" class="method navigator-link" hash-for-method="imageTestInSearchResultPage">imageTestInSearchResultPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="invalidLogincheck">invalidLogincheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="invalidPasswordLogincheck">invalidPasswordLogincheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="invalidUsernameLogincheck">invalidUsernameLogincheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="mailValidation">mailValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.NavigationTest" class="method navigator-link" hash-for-method="navigateFromHomeToCreateAccountPage">navigateFromHomeToCreateAccountPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.NavigationTest" class="method navigator-link" hash-for-method="navigateFromHomeToLoginPage">navigateFromHomeToLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.NavigationTest" class="method navigator-link" hash-for-method="navigateFromHomeToSearchResultPage">navigateFromHomeToSearchResultPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.NavigationTest" class="method navigator-link" hash-for-method="navigateFromLoginToCreateAccountPage">navigateFromLoginToCreateAccountPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.OrderFlowTest" class="method navigator-link" hash-for-method="orderFlowThroughSearch">orderFlowThroughSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="passwordValidation">passwordValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="validLogincheck">validLogincheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgetPasswordCheck">
+                  </a> <!-- forgetPasswordCheck -->
+                  <span class="method-name">forgetPasswordCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogincheck">
+                  </a> <!-- invalidLogincheck -->
+                  <span class="method-name">invalidLogincheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPasswordLogincheck">
+                  </a> <!-- invalidPasswordLogincheck -->
+                  <span class="method-name">invalidPasswordLogincheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameLogincheck">
+                  </a> <!-- invalidUsernameLogincheck -->
+                  <span class="method-name">invalidUsernameLogincheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogincheck">
+                  </a> <!-- validLogincheck -->
+                  <span class="method-name">validLogincheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createValidUser">
+                  </a> <!-- createValidUser -->
+                  <span class="method-name">createValidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mailValidation">
+                  </a> <!-- mailValidation -->
+                  <span class="method-name">mailValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordValidation">
+                  </a> <!-- passwordValidation -->
+                  <span class="method-name">passwordValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ImageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageTestInHomePage">
+                  </a> <!-- imageTestInHomePage -->
+                  <span class="method-name">imageTestInHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageTestInSearchResultPage">
+                  </a> <!-- imageTestInSearchResultPage -->
+                  <span class="method-name">imageTestInSearchResultPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OrderFlowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderFlowThroughSearch">
+                  </a> <!-- orderFlowThroughSearch -->
+                  <span class="method-name">orderFlowThroughSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.NavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateFromHomeToCreateAccountPage">
+                  </a> <!-- navigateFromHomeToCreateAccountPage -->
+                  <span class="method-name">navigateFromHomeToCreateAccountPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateFromHomeToLoginPage">
+                  </a> <!-- navigateFromHomeToLoginPage -->
+                  <span class="method-name">navigateFromHomeToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateFromHomeToSearchResultPage">
+                  </a> <!-- navigateFromHomeToSearchResultPage -->
+                  <span class="method-name">navigateFromHomeToSearchResultPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateFromLoginToCreateAccountPage">
+                  </a> <!-- navigateFromLoginToCreateAccountPage -->
+                  <span class="method-name">navigateFromLoginToCreateAccountPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreateAccountTest&quot;/&gt;
+      &lt;class name=&quot;tests.ImageTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.NavigationTest&quot;/&gt;
+      &lt;class name=&quot;tests.OrderFlowTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'orderFlowThroughSearch')
+data.setCell(0, 2, 'tests.OrderFlowTest')
+data.setCell(0, 3, 22094);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'forgetPasswordCheck')
+data.setCell(1, 2, 'tests.LoginTest')
+data.setCell(1, 3, 12433);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'invalidLogincheck')
+data.setCell(2, 2, 'tests.LoginTest')
+data.setCell(2, 3, 4737);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invalidUsernameLogincheck')
+data.setCell(3, 2, 'tests.LoginTest')
+data.setCell(3, 3, 4584);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'invalidPasswordLogincheck')
+data.setCell(4, 2, 'tests.LoginTest')
+data.setCell(4, 3, 4499);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validLogincheck')
+data.setCell(5, 2, 'tests.LoginTest')
+data.setCell(5, 3, 4076);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'imageTestInSearchResultPage')
+data.setCell(6, 2, 'tests.ImageTest')
+data.setCell(6, 3, 3296);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'navigateFromLoginToCreateAccountPage')
+data.setCell(7, 2, 'tests.NavigationTest')
+data.setCell(7, 3, 2860);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'navigateFromHomeToCreateAccountPage')
+data.setCell(8, 2, 'tests.NavigationTest')
+data.setCell(8, 3, 2381);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'navigateFromHomeToLoginPage')
+data.setCell(9, 2, 'tests.NavigationTest')
+data.setCell(9, 3, 2364);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'mailValidation')
+data.setCell(10, 2, 'tests.CreateAccountTest')
+data.setCell(10, 3, 1972);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'navigateFromHomeToSearchResultPage')
+data.setCell(11, 2, 'tests.NavigationTest')
+data.setCell(11, 3, 1837);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'passwordValidation')
+data.setCell(12, 2, 'tests.CreateAccountTest')
+data.setCell(12, 3, 1816);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'imageTestInHomePage')
+data.setCell(13, 2, 'tests.ImageTest')
+data.setCell(13, 3, 1790);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createValidUser')
+data.setCell(14, 2, 'tests.CreateAccountTest')
+data.setCell(14, 3, 1516);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createValidUser</span>
+                <span class="method-start">1585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=createValidUser status=SUCCESS method=CreateAccountTest.createValidUser()[pri:1, in...)</span>
+                <span class="method-start">3104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">3724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordValidation</span>
+                <span class="method-start">4752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=passwordValidation status=SUCCESS method=CreateAccountTest.passwordValidation()[pri...)</span>
+                <span class="method-start">6569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">7187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mailValidation</span>
+                <span class="method-start">8235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=mailValidation status=SUCCESS method=CreateAccountTest.mailValidation()[pri:3, inst...)</span>
+                <span class="method-start">10207 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ImageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">10803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">imageTestInHomePage</span>
+                <span class="method-start">11849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=imageTestInHomePage status=SUCCESS method=ImageTest.imageTestInHomePage()[pri:1, in...)</span>
+                <span class="method-start">13640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">14253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">imageTestInSearchResultPage</span>
+                <span class="method-start">15271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=imageTestInSearchResultPage status=SUCCESS method=ImageTest.imageTestInSearchResult...)</span>
+                <span class="method-start">18567 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">19156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLogincheck</span>
+                <span class="method-start">20147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=validLogincheck status=SUCCESS method=LoginTest.validLogincheck()[pri:1, instance:t...)</span>
+                <span class="method-start">24223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">24824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLogincheck</span>
+                <span class="method-start">25815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=invalidLogincheck status=SUCCESS method=LoginTest.invalidLogincheck()[pri:2, instan...)</span>
+                <span class="method-start">30553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">31147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameLogincheck</span>
+                <span class="method-start">32195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=invalidUsernameLogincheck status=SUCCESS method=LoginTest.invalidUsernameLogincheck...)</span>
+                <span class="method-start">36780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">37397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPasswordLogincheck</span>
+                <span class="method-start">38437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=invalidPasswordLogincheck status=SUCCESS method=LoginTest.invalidPasswordLogincheck...)</span>
+                <span class="method-start">42937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">43530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgetPasswordCheck</span>
+                <span class="method-start">44562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=forgetPasswordCheck status=SUCCESS method=LoginTest.forgetPasswordCheck()[pri:5, in...)</span>
+                <span class="method-start">56995 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">57614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateFromHomeToLoginPage</span>
+                <span class="method-start">58663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=navigateFromHomeToLoginPage status=SUCCESS method=NavigationTest.navigateFromHomeTo...)</span>
+                <span class="method-start">61027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">61668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateFromHomeToCreateAccountPage</span>
+                <span class="method-start">62693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=navigateFromHomeToCreateAccountPage status=SUCCESS method=NavigationTest.navigateFr...)</span>
+                <span class="method-start">65074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">65719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateFromLoginToCreateAccountPage</span>
+                <span class="method-start">66854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=navigateFromLoginToCreateAccountPage status=SUCCESS method=NavigationTest.navigateF...)</span>
+                <span class="method-start">69714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">70361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateFromHomeToSearchResultPage</span>
+                <span class="method-start">71454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=navigateFromHomeToSearchResultPage status=SUCCESS method=NavigationTest.navigateFro...)</span>
+                <span class="method-start">73291 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderFlowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">73918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderFlowThroughSearch</span>
+                <span class="method-start">74994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver([TestResult name=orderFlowThroughSearch status=SUCCESS method=OrderFlowTest.orderFlowThroughSearch()...)</span>
+                <span class="method-start">97089 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
